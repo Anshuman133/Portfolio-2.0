@@ -47,7 +47,7 @@ function FeaturedWorks () {
         </div>
           
            <div className=" mt-7  ">
-            {Works.slice(0,3).map(({id,image, heading, timing,webType, content},index) =>(
+            {Works.slice(0,3).map(({id,image, heading,live,code, content},index) =>(
               <div key={id}>
                 <div  className="flex  flex-col md:flex-row gap-5 pt-5 ">
                   {/* image */}
