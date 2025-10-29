@@ -1,6 +1,6 @@
 import HeroImg from "../assets/Hero.jpg"
 const openResume = ()=>{
-    window.open("https://drive.google.com/file/d/1-7FWpjqkVPFf_nklQogQ4ZYkw-GTJGDX/view?usp=sharing', '_blank'")
+    window.open("https://drive.google.com/file/d/1BNZRlyY1G0b-NVsjZ9Kk3tLBzeGBeLxM/view?usp=sharing', '_blank'")
 }
 
 function Hero (){
