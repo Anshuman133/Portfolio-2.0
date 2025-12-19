@@ -34,7 +34,7 @@ function Work () {
                id : 3,
                image : Demo,
                heading : "The Blog",
-               live : "",
+               live : "https://github.com/Anshuman133/Blog",
                code : "https://github.com/Anshuman133/Blog",
                content : "The Blog is a clean, user-friendly blogging platform for writers and readers. Create, edit, and publish posts with ease. Enjoy features like user profiles, comments, categories, and a responsive design. Whether sharing ideas or stories, The Blog offers a simple, elegant space to express yourself and connect with others."
            }

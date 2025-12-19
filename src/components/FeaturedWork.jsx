@@ -5,8 +5,16 @@ import LiveDocs from "../assets/livedocs.avif"
 import Demo  from "../assets/pimg1.jpg"
 function FeaturedWorks () {
    const Works = [
+              {
+                  id : 1,
+                  image : Demo,
+                  heading : "The Blog",
+                  live : "https://github.com/Anshuman133/Blog",
+                  code : "https://github.com/Anshuman133/Blog",
+                  content : "The Blog is a clean, user-friendly blogging platform for writers and readers. Create, edit, and publish posts with ease. Enjoy features like user profiles, comments, categories, and a responsive design. Whether sharing ideas or stories, The Blog offers a simple, elegant space to express yourself and connect with others."
+              },
               {   
-                  id : 0,
+                  id : 2,
                   image : Portfolio,
                   heading : "Portfolio",
                   live : "https://portfolio-2-0-iota-brown.vercel.app",
@@ -14,7 +22,7 @@ function FeaturedWorks () {
                   content : "A modern and responsive personal portfolio website to showcase your work, skills, and contact info. Designed with clean UI using React and Tailwind CSS, it's a professional space to present yourself as a developer."
               },
               { 
-                  id :1,
+                  id :3,
                   image : Yoom,
                   heading : "Yoom ",
                   live : "https://yoom.vercel.app",
@@ -22,21 +30,14 @@ function FeaturedWorks () {
                   content : "Yoom is a full-stack video conferencing platform featuring meeting scheduling, video call reminders, and seamless real-time communication. Built with React, Tailwind CSS, Node.js, and MongoDB, and powered by Clerk for secure authentication. Fully responsive and optimized for a smooth user experience across devices."
               },
               {
-                  id : 2,
+                  id : 4,
                   image : LiveDocs,
                   heading : "LiveDocs",
                   live : "https://jsm-live-docs.vercel.app",
                   code : "https://github.com/Anshuman133/LiveDocs",
                   content : "Live Docs is a real-time document collaboration tool, similar to Google Docs. It allows users to edit documents simultaneously, share links, and manage user sessions. Developed using React, Tailwind CSS, Node.js, and MongoDB, with Clerk integration for authentication. Fully responsive and ideal for productivity on the go."
               },
-              {
-                  id : 3,
-                  image : Demo,
-                  heading : "The Blog",
-                  live : "",
-                  code : "",
-                  content : "The Blog is a clean, user-friendly blogging platform for writers and readers. Create, edit, and publish posts with ease. Enjoy features like user profiles, comments, categories, and a responsive design. Whether sharing ideas or stories, The Blog offers a simple, elegant space to express yourself and connect with others."
-              }
+              
       
           ]
   return(
